@@ -80,7 +80,7 @@ export function Hero() {
           </Reveal>
         </div>
 
-        <Reveal delay={200} className="lg:justify-self-end">
+        <Reveal delay={200} className="w-full lg:justify-self-end">
           <EnterpriseDiagram />
         </Reveal>
       </div>
