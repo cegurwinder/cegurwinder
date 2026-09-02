@@ -105,7 +105,7 @@ export function Contact() {
                 </a>
               </Button>
               <Button asChild variant="secondary">
-                <a href="#contact" aria-label="LinkedIn profile link coming soon">
+                <a href="https://www.linkedin.com/in/gurwinder-singh-61896b145/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BieSFg8nPREu3HPw%2BLD8jbQ%3D%3D" aria-label="LinkedIn profile link coming soon">
                   <Linkedin aria-hidden="true" />
                   LinkedIn
                 </a>
