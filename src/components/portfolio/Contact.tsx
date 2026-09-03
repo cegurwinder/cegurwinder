@@ -112,7 +112,7 @@ export function Contact() {
               </Button>
             </div>
             <p className="mt-3 text-xs text-muted-foreground">
-              LinkedIn profile link to be added.
+              
             </p>
           </Reveal>
 
