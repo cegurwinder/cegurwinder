@@ -1,64 +1,40 @@
-import {
-  Activity,
-  BookOpenCheck,
-  Crown,
-  KeyRound,
-  Rocket,
-  ShieldCheck,
-} from "lucide-react";
+import { Activity, BookOpenCheck, Crown, Rocket } from "lucide-react";
 import { Reveal, SectionHeading } from "./primitives";
 
 const PROJECTS = [
   {
     Icon: Rocket,
-    title: "Windows 11 Migration & Autopilot Rollout",
+    title: "Microsoft Intune Autopilot Deployment",
     tag: "300+ Devices",
-    text: "Planned and delivered zero-touch device provisioning with Microsoft Intune Autopilot, replacing manual imaging with policy-driven enrolment, driver packs and app assignments across multiple London sites.",
+    text: "Led device deployment and provisioning using Microsoft Intune Autopilot, improving deployment efficiency and reducing manual imaging overhead.",
     metricLabel: "Impact",
-    metric: "40% faster build & deployment, near-zero re-image tickets",
+    metric: "40% reduction in build & deployment time",
   },
   {
     Icon: Activity,
-    title: "Proactive Endpoint Health with Nexthink",
-    tag: "Endpoint Analytics",
-    text: "Built dashboards and alerting around device health, boot performance, crash patterns and software conflicts, so degradations were remediated before users raised incidents.",
+    title: "Endpoint Analytics & Proactive Support",
+    tag: "Nexthink",
+    text: "Used Nexthink endpoint analytics to identify device health issues, performance degradation and potential root causes before they became major user incidents.",
     metricLabel: "Impact",
-    metric: "85%+ first-time-fix rate, fewer P2/P3 escalations",
-  },
-  {
-    Icon: ShieldCheck,
-    title: "Endpoint Security & Patch Compliance",
-    tag: "BitLocker • EDR • Patching",
-    text: "Drove BitLocker encryption coverage, EDR agent health and monthly patch compliance across the managed estate, chasing exceptions and remediating vulnerable builds.",
-    metricLabel: "Impact",
-    metric: "Sustained 95%+ patch & encryption compliance",
-  },
-  {
-    Icon: KeyRound,
-    title: "Identity & Access Standardisation",
-    tag: "Entra ID • Active Directory",
-    text: "Streamlined joiner/mover/leaver handling with group-based access, MFA enrolment support and cleanup of stale accounts and permissions in Active Directory and Entra ID.",
-    metricLabel: "Impact",
-    metric: "Faster onboarding, tighter least-privilege access",
+    metric: "85%+ first-time-fix rate",
   },
   {
     Icon: BookOpenCheck,
-    title: "Knowledge Base & SOP Programme",
+    title: "Knowledge Base & SOP Development",
     tag: "30+ Technical Articles",
-    text: "Authored and maintained SOPs, troubleshooting runbooks and self-service guides, then coached 1st-line colleagues to resolve at first contact.",
+    text: "Created and maintained technical SOPs, troubleshooting guides and knowledge articles to improve self-service and reduce recurring incidents.",
     metricLabel: "Impact",
     metric: "25% reduction in repeat incidents",
   },
   {
     Icon: Crown,
     title: "VIP & Executive IT Support",
-    tag: "Enterprise Environment",
-    text: "Delivered discreet white-glove support for senior stakeholders and C-suite users, covering travel readiness, conferencing, mobile devices and priority incident handling.",
+    tag: "GSK Enterprise Environment",
+    text: "Provided discreet, high-priority white-glove IT support for senior stakeholders and C-suite users.",
     metricLabel: "Focus",
-    metric: "Reliability • Security • Speed • Experience",
+    metric: "Reliability • Security • Speed • Customer Experience",
   },
 ];
-
 
 export function Projects() {
   return (
