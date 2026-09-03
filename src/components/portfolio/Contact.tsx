@@ -1,5 +1,14 @@
 import { useState } from "react";
-import { CheckCircle2, Download, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
+import {
+  CheckCircle2,
+  Download,
+  Linkedin,
+  Mail,
+  MapPin,
+  MessageCircle,
+  Phone,
+  Send,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -108,6 +117,17 @@ export function Contact() {
                 <a href="https://www.linkedin.com/in/gurwinder-singh-61896b145/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BieSFg8nPREu3HPw%2BLD8jbQ%3D%3D" aria-label="LinkedIn profile link coming soon">
                   <Linkedin aria-hidden="true" />
                   LinkedIn
+                </a>
+              </Button>
+              <Button asChild variant="secondary">
+                <a
+                  href={`https://wa.me/${PHONE.replace(/[^0-9]/g, "")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Chat with Gurwinder Singh on WhatsApp"
+                >
+                  <MessageCircle aria-hidden="true" />
+                  WhatsApp
                 </a>
               </Button>
             </div>
