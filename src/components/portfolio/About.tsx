@@ -10,7 +10,7 @@ import { Reveal, SectionHeading } from "./primitives";
 
 const BRINGS = [
   {
-    title: "Enterprise Test Support",
+    title: "Enterprise IT Support",
     Icon: Headset,
     text: "Deskside, field and service desk support in large, regulated environments.",
   },
